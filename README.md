@@ -1,15 +1,16 @@
 # 🧠 Jamie Christian — Data Science Portfolio (2025 Edition)
 
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
-![Language](https://img.shields.io/badge/Made%20With-Python%20%7C%20SQL%20%7C%20Jupyter-blue)
+![Language](https://img.shields.io/badge/Built%20With-Python%20%7C%20SQL%20%7C%20Jupyter-blue)
 ![License](https://img.shields.io/badge/License-MIT-blue)
-![OpenToWork](https://img.shields.io/badge/Open%20To-Data%20Analyst%20%7C%20BI%20Analyst%20%7C%20ML%20Projects-orange)
+![Role](https://img.shields.io/badge/Open%20To-Data%20Analyst%20%7C%20BI%20Analyst%20%7C%20ML%20Projects-orange)
 
-Welcome to my **Data Science Portfolio**, a curated collection of projects and notebooks demonstrating real-world data analysis, machine learning, and visualization techniques.  
-Each project showcases the end-to-end data workflow — from **data preparation and feature engineering** to **modeling, evaluation, and insight communication**.
+Welcome to my **Data Science Portfolio**, where I showcase my analytical and technical capabilities through a mix of **real-world datasets**, **machine learning models**, and **executive summaries**.  
 
-> 🎯 **Goal:** To transform raw data into actionable insights using modern analytical tools and reproducible workflows.  
-> 🧰 **Core Stack:** Python, Pandas, NumPy, Matplotlib, Plotly, Scikit-Learn, SQL, Jupyter, Power BI.
+Each project highlights end-to-end workflows — from **data wrangling** and **feature engineering** to **model building**, **evaluation**, and **insight communication**.
+
+> 🎯 **Goal:** Deliver business-ready insights through reproducible analytics and clean storytelling.  
+> 🧰 **Core Stack:** Python, Pandas, NumPy, Scikit-Learn, Matplotlib, Plotly, SQL, Power BI, JupyterLab.
 
 ---
 
@@ -17,10 +18,11 @@ Each project showcases the end-to-end data workflow — from **data preparation 
 
 ```
 data-science-portfolio/
-├── notebooks/          # Jupyter notebooks for EDA, ML, and API projects
-├── data_files/         # CSV / Excel datasets (some ignored via .gitignore)
-├── Visuals/            # Generated visuals, charts, and model images
-├── reports_package/    # Summaries, insights, and deliverable reports
+├── notebooks/          # Jupyter notebooks for analysis, ML, and EDA
+├── Visuals/            # Charts, model outputs, and confusion matrices
+├── data_files/         # Raw and cleaned datasets
+├── reports_package/    # Executive summary PDFs (1-page reports)
+├── docs/               # Documentation and supporting materials
 └── README.md           # You are here
 ```
 
@@ -28,97 +30,101 @@ data-science-portfolio/
 
 ## 🚀 Featured Projects
 
-| Project | Description | Key Skills |
-|----------|--------------|-------------|
-| **SpaceX Machine Learning Prediction** | Predicts Falcon 9 first stage landing success using classification models (SVM, KNN, Decision Tree, Elastic-Net). | ML, Data Wrangling, Feature Engineering |
-| **AUSWeather Project** | Predicts Australian weather patterns using meteorological data. | Regression, EDA, Data Cleaning |
-| **House Sales in King County, USA** | Predicts house prices using regression and exploratory data analysis. | Linear Regression, Feature Scaling, Visualization |
-| **DataScienceEcosystem & Coursera Labs** | Core foundational notebooks on SQL, Web Scraping, API integration, and SQLite queries. | SQL, Python, APIs, ETL |
+| Project | Description | Deliverable |
+|----------|--------------|--------------|
+| 🚀 **SpaceX Machine Learning Prediction** | Predicts Falcon 9 first stage landing success using ML models. | [Executive Summary (PDF)](reports_package/SpaceX_ML_Prediction_Summary.pdf) |
+| 🌦️ **AUSWeather Prediction Project** | Forecasts rain occurrence using meteorological data. | [Executive Summary (PDF)](reports_package/AUSWeather_Project_Summary.pdf) |
+| 🏠 **House Sales in King County, USA** | Predicts house prices using regression and feature analysis. | [Executive Summary (PDF)](reports_package/House_Sales_Summary.pdf) |
 
 ---
 
-## 📸 Visuals & Assets
+## 📊 Visuals & Assets
 
-All static image assets are stored in the [`Visuals/`](./Visuals) folder and linked across notebooks and reports.
+See the [`Visuals/`](Visuals) directory for all supporting images, charts, and model plots.  
 
 | Model / Topic | Visualization |
 |----------------|----------------|
 | **SVM Classifier** | ![SVM Confusion Matrix](Visuals/confusion_matrix_svm.png) |
 | **Decision Tree** | ![Decision Tree Confusion Matrix](Visuals/confusion_matrix_decision_tree.png) |
-| **KNN Model** | ![KNN Confusion Matrix](Visuals/confusion_matrix_knn.png) |
 | **Elastic-Net Classifier** | ![Elastic-Net Feature Importance](Visuals/feature_importance_elastic_net.png) |
 | **Tesla Stock Study** | ![Tesla Stock Graph](Visuals/plot_tesla_stock_graph.png) |
-
-> 🧩 Filenames use lowercase + underscores for consistency.  
-> Example: `confusion_matrix_svm.png`, `feature_importance_elastic_net.png`
 
 ---
 
 ## 📓 Notebooks Overview
 
-Explore the [**notebooks/**](./notebooks) folder for full Jupyter notebooks demonstrating practical data workflows.
+The [`notebooks/`](notebooks) folder contains fully documented Jupyter notebooks covering topics such as:
+- **Exploratory Data Analysis (EDA)**
+- **Machine Learning Pipelines**
+- **API Integration & Web Scraping**
+- **SQL Queries & Data Wrangling**
 
-| Notebook | Description | Focus |
-|-----------|--------------|--------|
-| `SpaceX_Machine Learning Prediction_Part_5.ipynb` | Full ML pipeline predicting rocket landing success. | Classification, Feature Tuning |
-| `FinalProject_AUSWeather.ipynb` | Weather prediction based on Australian climate data. | Regression, Visualization |
-| `House_Sales_in_King_Count_USA.ipynb` | Predicts housing prices using regression analysis. | Linear Regression |
-| `jupyter-labs-webscraping.ipynb` | Scrapes tabular data from web sources. | Web Scraping, BeautifulSoup |
-| `jupyter-labs-spacex-data-collection-api.ipynb` | Collects live SpaceX data from REST API. | API Integration |
-| `edadataviz (1).ipynb` | Visualization mini-project with trend analysis. | EDA, Data Viz |
+Example notebooks:
+- `SpaceX_Machine Learning Prediction_Part_5.ipynb`
+- `FinalProject_AUSWeather.ipynb`
+- `House_Sales_in_King_Count_USA.ipynb`
+
+Each notebook follows the format:
+> *Problem → Data → Method → Results → Insights.*
 
 ---
 
-## ⚙️ Setup & Execution
+## 🧾 Executive Summaries
 
-### 1️⃣ Clone the Repository
+The [`reports_package/`](reports_package) folder contains concise one-page reports for quick review:
+- [🚀 SpaceX Machine Learning Prediction](reports_package/SpaceX_ML_Prediction_Summary.pdf)
+- [🌦️ AUSWeather Project](reports_package/AUSWeather_Project_Summary.pdf)
+- [🏠 House Sales in King County, USA](reports_package/House_Sales_Summary.pdf)
+
+These are business-friendly summaries highlighting dataset, approach, key results, and impact.
+
+---
+
+## ⚙️ Getting Started
+
+### Clone & Run
 ```bash
 git clone https://github.com/JamieChristian22/data-science-portfolio.git
 cd data-science-portfolio
-```
-
-### 2️⃣ Create a Virtual Environment
-```bash
 python -m venv .venv
-source .venv/bin/activate        # Windows: .venv\Scripts\activate
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-```
-
-### 3️⃣ Run Jupyter Notebooks
-```bash
 jupyter lab
-# or
-jupyter notebook
 ```
 
-> 💡 Each notebook includes clear **Problem → Data → Method → Results → Next Steps** sections for easy comprehension.
+### Recommended Tools
+- JupyterLab / VS Code
+- Power BI (for dashboards)
+- Python 3.10+  
+- Pandas, Scikit-Learn, Plotly, Matplotlib, Seaborn
 
 ---
 
-## 🧰 Tools & Technologies
+## 🧠 Skills Demonstrated
 
-| Category | Tools |
-|-----------|--------|
-| **Languages** | Python, SQL |
-| **Libraries** | Pandas, NumPy, Scikit-Learn, Matplotlib, Plotly, Seaborn |
-| **Environment** | JupyterLab, VS Code, Colab |
-| **Reporting** | Markdown, Power BI, PDF Reports |
-| **Version Control** | Git, GitHub |
+| Category | Tools / Techniques |
+|-----------|--------------------|
+| **Data Preparation** | Pandas, NumPy, Power Query |
+| **Visualization** | Matplotlib, Plotly, Power BI |
+| **Modeling** | Scikit-Learn (Regression, Classification) |
+| **Automation** | Python Scripts, API, Web Scraping |
+| **Documentation** | Markdown, ReportLab, Executive Summaries |
 
 ---
 
 ## 🧭 Roadmap
 
-- [ ] Add Power BI dashboards for top 3 projects  
-- [ ] Add Deep Learning mini-project (TensorFlow / PyTorch)  
-- [ ] Automate model training and reporting pipeline  
-- [ ] Publish summary articles on Medium / LinkedIn  
+- [ ] Add interactive Streamlit dashboard  
+- [ ] Integrate Power BI visuals  
+- [ ] Include model comparison notebook  
+- [ ] Expand executive summaries into 2-page reports  
 
 ---
 
 ## 📜 License
 
-This project is licensed under the **MIT License** — see `LICENSE` for details.
+This repository is licensed under the **MIT License**.  
+© 2025 Jamie Christian. All rights reserved.
 
 ---
 
@@ -126,7 +132,7 @@ This project is licensed under the **MIT License** — see `LICENSE` for details
 
 💼 [LinkedIn](https://linkedin.com/in/jamiechristiananalytics)  
 📂 [GitHub](https://github.com/JamieChristian22)  
-✉️ *Open to Data Science, and ML project collaborations.*
+📧 *Open to Data Science, and ML collaboration opportunities.*
 
 ---
 
