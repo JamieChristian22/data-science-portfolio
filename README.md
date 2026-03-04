@@ -202,7 +202,7 @@ Business Problem Translation
 
 **Jamie Christian**
 
-Certified Data Analyst with experience in business analytics, predictive modeling, and data-driven decision making.
+Certified Data Science  with experience in data analytics, predictive modeling, and data-driven decision making.
 
 🔗 LinkedIn
 https://www.linkedin.com/in/jamiechristian2/
