@@ -1,0 +1,8 @@
+{
+  "n_users": 600,
+  "n_products": 320,
+  "purchase_rows": 8133,
+  "sparsity": 0.9572397476340694,
+  "svd_components": 28,
+  "sample_users_in_report": 8
+}
