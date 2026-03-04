@@ -1,5 +1,5 @@
 
-# Data Science Portfolio (6 End-to-End Case Studies) — 10/10 Version
+# Data Science Portfolio (6 End-to-End Case Studies) 
 
 This repository contains **6 production-style data science case studies**. Each project includes:
 - CSV dataset (`data/`)
