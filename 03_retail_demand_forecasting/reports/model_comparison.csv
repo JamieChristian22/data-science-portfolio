@@ -1,0 +1,3 @@
+model,WMAPE_pct
+Seasonal Naive t-7,13.226565697912404
+HistGradientBoosting,6.116811025627498

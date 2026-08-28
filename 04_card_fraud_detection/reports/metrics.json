@@ -1,0 +1,9 @@
+{
+  "fraud_rate": 0.0043,
+  "supervised_roc_auc": 0.6221273031825796,
+  "supervised_pr_auc": 0.01744558462797514,
+  "precision_at_top_1pct": 0.03333333333333333,
+  "recall_at_top_1pct": 0.06666666666666667,
+  "isolation_forest_roc_auc": 0.5401395868230039,
+  "isolation_forest_pr_auc": 0.011588986381101483
+}

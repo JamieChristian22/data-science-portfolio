@@ -1,0 +1,5 @@
+{
+  "lost_margin_per_underforecast_unit": 12,
+  "holding_cost_per_overforecast_unit": 2.5,
+  "illustrative_error_cost": 9216.41590664808
+}

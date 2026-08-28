@@ -1,0 +1,6 @@
+{
+  "fraud_dollars_in_holdout": 1352.24,
+  "fraud_dollars_captured_top_1pct": 87.21000000000001,
+  "capture_rate": 0.06449298941016388,
+  "review_cost_per_alert_demo": 4
+}
