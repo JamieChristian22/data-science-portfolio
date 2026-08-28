@@ -1,0 +1,11 @@
+{
+  "assumptions": {
+    "loss_given_default": 0.45,
+    "false_negative_cost_weight": 5,
+    "false_positive_cost_weight": 1
+  },
+  "portfolio_exposure": 17043040.15,
+  "estimated_expected_loss": 2241502.622393717,
+  "approval_rate_demo": 0.393,
+  "manual_review_rate_demo": 0.318
+}
