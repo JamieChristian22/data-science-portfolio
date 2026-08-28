@@ -1,0 +1,23 @@
+{
+  "assumptions": {
+    "contact_cost_usd": 12,
+    "retained_customer_value_usd": 450,
+    "save_rate_if_true_churner_contacted": 0.3
+  },
+  "default_threshold_0_50": {
+    "contacted_customers": 262,
+    "true_churners_reached": 74,
+    "expected_saves": 22.2,
+    "gross_value_saved": 9990.0,
+    "campaign_cost": 3144.0,
+    "estimated_net_value": 6846.0
+  },
+  "selected_business_threshold": {
+    "contacted_customers": 389,
+    "true_churners_reached": 86,
+    "expected_saves": 25.8,
+    "gross_value_saved": 11610.0,
+    "campaign_cost": 4668.0,
+    "estimated_net_value": 6942.0
+  }
+}
