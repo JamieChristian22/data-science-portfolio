@@ -1,0 +1,36 @@
+name: Feature request
+description: Suggest a modeling, reproducibility, evaluation, or documentation improvement
+title: "[Feature]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Focus on responsible, reproducible educational improvements. Implementation is not guaranteed.
+  - type: input
+    id: area
+    attributes:
+      label: Project or area
+      placeholder: "Churn, credit risk, forecasting, fraud, marketing, recommendations..."
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or learning need
+      description: Explain the current limitation or opportunity.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement
+      description: Describe the intended change and why it would be useful.
+    validations:
+      required: true
+  - type: textarea
+    id: evaluation
+    attributes:
+      label: Evaluation and responsible AI considerations
+      description: Mention potential data sources, metrics, leakage, bias, privacy, and validation.
+    validations:
+      required: false
