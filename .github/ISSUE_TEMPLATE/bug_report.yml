@@ -1,0 +1,42 @@
+name: Bug report
+description: Report a reproducible issue in data processing, a model, evaluation, or documentation
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please use public or synthetic examples. Do not publish credentials, private datasets, personally identifying information, or sensitive security details. Follow SECURITY.md for private reports.
+  - type: input
+    id: component
+    attributes:
+      label: Affected project or component
+      placeholder: "Churn model, forecasting notebook, evaluation script, README..."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include a safe minimal example, command, or notebook steps.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior and sanitized output
+      description: Remove any private data, tokens, or credentials from logs.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment and versions
+      placeholder: "Python, pandas, NumPy, scikit-learn, operating system..."
+    validations:
+      required: false
