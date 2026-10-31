@@ -8,6 +8,8 @@
 ![Data Science](https://img.shields.io/badge/Data%20Science-1E90FF?style=for-the-badge)
 ![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge\&logo=postgresql\&logoColor=white)
 
+[![Sponsor on GitHub](https://img.shields.io/badge/Sponsor%20this%20project-GitHub%20Sponsors-EA4AAA?logo=githubsponsors&logoColor=white)](https://github.com/sponsors/JamieChristian22)
+
 End-to-end **data science and machine learning projects** demonstrating predictive modeling, forecasting, anomaly detection, and recommendation systems built with Python and modern analytics tools.
 
 These projects simulate **real-world business problems** across industries including telecom, finance, retail, marketing, and ecommerce.
@@ -217,3 +219,13 @@ https://github.com/JamieChristian22
 This repository demonstrates practical **data science and machine learning solutions applied to real-world business problems** across multiple industries.
 
 The goal is to showcase **end-to-end analytics workflows including data preparation, modeling, evaluation, and business insight generation.**
+
+---
+
+## 💖 Support This Project
+
+If the data science and machine-learning projects in this portfolio are useful to you, consider [supporting independent development through GitHub Sponsors](https://github.com/sponsors/JamieChristian22).
+
+[![Become a GitHub Sponsor](https://img.shields.io/badge/Become%20a-GitHub%20Sponsor-EA4AAA?logo=githubsponsors&logoColor=white)](https://github.com/sponsors/JamieChristian22)
+
+Sponsorship is entirely optional and helps support documentation, educational experiments, testing, and maintenance. You can also help by starring the repository, sharing it, or submitting constructive issues and contributions. Sponsorship does not guarantee model features, outcomes, or influence evaluation results.
