@@ -1,0 +1,41 @@
+name: Data science project tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  project-tests:
+    name: Test ${{ matrix.project }} 
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        project:
+          - 01_telecom_churn_prediction
+          - 02_credit_risk_default_prediction
+          - 03_retail_demand_forecasting
+          - 04_card_fraud_detection
+          - 05_marketing_campaign_optimization
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        env:
+          PROJECT: ${{ matrix.project }}
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r "$PROJECT/requirements.txt"
+      - name: Run portfolio project tests
+        env:
+          PROJECT: ${{ matrix.project }}
+        run: |
+          cd "$PROJECT"
+          python -m pytest tests -q
