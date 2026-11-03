@@ -268,3 +268,7 @@ If the data science and machine-learning projects in this portfolio are useful t
 [![Become a GitHub Sponsor](https://img.shields.io/badge/Become%20a-GitHub%20Sponsor-EA4AAA?logo=githubsponsors&logoColor=white)](https://github.com/sponsors/JamieChristian22)
 
 Sponsorship is entirely optional and helps support documentation, educational experiments, testing, and maintenance. You can also help by starring the repository, sharing it, or submitting constructive issues and contributions. Sponsorship does not guarantee model features, outcomes, or influence evaluation results.
+
+## License and third-party materials
+
+See [LICENSE](LICENSE) for the repository license. Third-party code, datasets, images, and other assets retain their respective terms.
